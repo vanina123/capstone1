@@ -30,7 +30,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [your_project_name] <a name="about-project">https://github.com/vanina123/capstone1</a>
 
@@ -56,17 +55,18 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://vanina123.github.io/capstone1/)
+
+- [Live loom Link](https://www.loom.com/share/90eebbf3a1e54fc1913e1191203e40c2)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
