@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIRL-CHILD</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script defer src="app.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+</head>
+<body>
+    <div id='header' class="header">
+        <!-- Top Header -->
+        <div class="landing-page">
+            <div class="container landing-page-container">
+                <ul class='landing-page-content'>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/DufeVanina" target=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#" class='login-btn'>Logout</a></li>
+                </ul>
+            </div>
+            <!-- user popup -->
+            <div id='modal-pop'>
+                <div class="modal-pop-login">
+                    <div class="modal-pop-login-content">
+                        <div class="modal-pop-login-content-header">
+                            <div class="modal-pop-login-content-header-title">
+                                <h3>Login</h3>
+                            </div>
+                            <div class="modal-pop-login-content-header-close">
+                                <i class="pop-close | fas fa-times"></i>
+                            </div>
+                        </div>
+                        <div class="modal-pop-login-content-body">
+                            <div class="modal-pop-login-content-body-form">
+                                <form action="https://formspree.io/f/xlekblyy" method="post">
+                                    <div class="modal-pop-login-content-body-form-input">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="modal-pop-login-content-body-form-input">
+                                        <input type="password" placeholder="Password">
+                                    </div>
+                                    <div class="remember-f modal-pop-login-content-body-form-input">
+                                        <input type="checkbox" id="isMe">
+                                        <label for="isMe">Remember me</label>
+                                    </div>
+                                    <div class="modal-pop-login-content-body-form-input">
+                                        <button class='btn btn-primary' type="submit">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-pop-login-content-body-register">
+                                <p>Don't have an account? <a href="#">Register</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Header -->
+    
+        <!-- -----------------------Navbar----------------------------- -->
+        <nav id='navbar' class="navbar">
+            <div class="container navbar-container">
+                <div class="logo">
+                    <a href="index.html" class="navbar-brand logo"><img src="./images/logo.png" alt="logo"></a>
+                </div>
+                <div class="navbar-right">
+                    <ul class="navbarItems">
+                        <li class='items'><a href="./index.html">Home</a></li>
+                        <li class='items'><a href="#program">Program</a></li>
+                        <li class='items'><a href="#guest">Feature</a></li>
+                        <li class='items'><a href="#sponsors">Sponsor</a></li>
+                        <li class='items'><a href="./about.html">News</a></li>
+                        <li class='items'><a href="#" class="btn-nav">GIRL-CHILD campaign</a></li>
+                    </ul>
+                </div>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+    <!-- Main content -->
+    <div class="main">
+        <!-- about landing section -->
+        <section class="landing">
+            <div class="container">
+                <div class="about-content">
+                    <h3 class="about-welcome-text">"Hey There. Heal the world!"</h3>
+                    <h1 class="about-title">GIRL-CHILD EDUCATION IN <br />
+                    AFRICA
+                        <hr class="red-line">
+                    </h1>
+                    <p class="about-p">
+                        The UN Chronicle is not an official record. It is privileged to host senior United Nations officials as well as
+                        distinguished contributors from outside the United Nations system whose views are not necessarily those of the United
+                        Nations.
+                    </p>
+                    <p class="contact-message">Please contact us by 
+                        Email for any further questions about GIRL-CHILD EDUCATION 2023</p>
+                    <a href="mailto:abc@gmail.com" class="emailBtn">abc@gmail.com <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- logo expo section -->
+        <section class="news-page">
+            <div class="container">
+                <div class="news-page-content">
+                    <h3 class="news-page-title">World's Children (UNICEF, 2007), 121.
+                        <hr class="red-line">
+                    </h3>
+                    <p class="news-page-p">
+                        ASimilarly, the boundaries and names shown, and the designations used, in maps or articles do not necessarily imply
+                        endorsement or acceptance by the United Nations..
+                    </p>
+                    <h1 class="news-page-l logo"><img src="./images/about-logo.jpg" alt="logo"></h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- beginining section -->
+        <section class="beginining">
+            <div class="container">
+                <div class="beginining-content">
+                    <div class="beginining-content-desc">
+                        <h3 class="mainTitle beginining-title ">About GIRL-CHILD
+                            <hr class="red-line">
+                        </h3>
+                        <p class="beginining-p">
+                            Similarly, the boundaries and names shown, and the designations used, in maps or articles do not necessarily imply
+                            endorsement or acceptance by the United Nations.
+                        </p>
+                    </div>
+                    <div class="beginining-cards">
+                        <div class="beginining-card card-1">
+                            <div class="card-overlay">
+                                <div class="beginining-card-content">
+                                    <h3 class="beginining-card-title">2022</h3>
+                                    <p class="beginining-card-p">
+                                    Transformative Education.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="beginining-card card-2">
+                            <div class="card-overlay">
+                                <div class="beginining-card-content">
+                                    <h3 class="beginining-card-title">2021</h3>
+                                    <p class="beginining-card-p">
+                                        Sub-Saharan Africa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1 class="logo">Girl<span>-Child</span></h1>
+                </div>
+                <div class="footer-adress">
+                    <p>2020 Gilr-Child EXPO<br> Some Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
