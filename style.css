@@ -222,6 +222,7 @@ li {
 
 /* Navbar */
 .navbar {
+  position: fixed;
   background-color: var(--white-color);
   color: var(--ash);
   padding: 1rem 0;
@@ -523,7 +524,7 @@ nav.glue {
 }
 
 .agenda-btn {
-  margin-top: 30%;
+  margin-top: 37%;
   color: var(--white-color);
   background-color: var(--theme);
   padding: 1.5rem 2rem;
@@ -973,6 +974,7 @@ q {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1%;
   }
+
   .agenda-item {
     flex-direction: column;
     padding: 1rem 0;
