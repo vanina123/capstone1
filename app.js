@@ -1,5 +1,5 @@
 const menuBtn = document.querySelector('.menu-btn');
-// const navbar = document.getElementById('navbar');
+const navbar = document.getElementById('navbar');
 const navbarMenu = document.querySelector('.navbar-right');
 const guestList = document.querySelector('.guest-list');
 const showMore = document.querySelector('.more-btn');
@@ -70,13 +70,13 @@ menuBtn.addEventListener('click', () => {
 });
 
 // glue navigation menu
-// window.onscroll = function () {
-//   if (window.pageYOffset > 100) {
-//     navbar.classList.add('glue');
-//   } else {
-//     navbar.classList.remove('glue');
-//   }
-// };
+window.onscroll = function () {
+  if (window.pageYOffset > 100) {
+    navbar.classList.add('glue');
+  } else {
+    navbar.classList.remove('glue');
+  }
+};
 
 // open menu on click
 menuBtn.addEventListener('click', (e) => {

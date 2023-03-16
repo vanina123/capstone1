@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+    - [🚀 Live loom video](#live-loom)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,11 +28,14 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [🙏 Credit](#Credit)
+
+
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
-# 📖 [your_project_name] <a name="about-project">https://github.com/vanina123/capstone1</a>
+# 📖 [Capstone1] <a name="about-project">https://github.com/vanina123/capstone1</a>
 
  # Brief
   
@@ -127,6 +131,11 @@ If you like this project kindly give it a ⭐️ and share.Together lets encoura
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+## Credit
+
+[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing design
+
 
 
 I would like to thank my team mates for for their timeless support and encouragement
